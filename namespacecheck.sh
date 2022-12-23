@@ -5,5 +5,5 @@ if [ $namespaceStatus == "Active" ]
 then
     echo "namespace is present"
 else
-   kubectl create namespace $1-demo3
+   kubectl create namespace $1
 fi
