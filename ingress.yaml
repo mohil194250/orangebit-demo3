@@ -13,7 +13,7 @@ spec:
             - pathType: Prefix
               backend:
                 service:
-                  name: oragebitdemo-prasad-oragne-bit-demo
+                  name: oragebitdemo-NAMESPACE-oragne-bit-demo
                   port:
                     number: 80
-              path: /demo3/main
+              path: /demo3/NAMESPACE
